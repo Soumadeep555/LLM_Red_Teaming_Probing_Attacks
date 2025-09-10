@@ -1,0 +1,12 @@
+# LLM Red Teaming Harness requirements
+
+# LLM interaction
+openai>=1.0.0
+transformers>=4.39.0
+torch>=2.1.0
+
+# Utility
+regex
+
+# Install this package in editable mode
+-e .

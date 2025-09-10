@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-redteam-harness"
+version = "0.1.0"
+description = "A reproducible harness for red-teaming gpt-oss-20b"
+authors = [{name="Soumadeep Das"}]
+license = "CC0-1.0"
+dependencies = ["openai"]
